@@ -1,6 +1,7 @@
 /* CSS: CASCADING STYLESHEET */
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
 
 /* STYLE GUIDE */
@@ -9,6 +10,7 @@
     --light-pink: hsl(321, 100%, 78%);
     --light-red: hsl(0, 100%, 63%);
     --dark-cyan: hsl(192, 100%, 9%);
+    --light-cyan: #0d4553;
     --pale-blue: hsl(207, 100%, 98%);
 }
 
@@ -19,12 +21,14 @@
     font-family: "Open Sans", sans-serif;
 }
 
+
+/* ========= HEADER STYLES ========= */
 div.wrapper {
     display: flex;
     align-items: center;
     justify-content: space-between;
     width: 90%;
-    margin: 40px auto;
+    margin: 80px auto;
 }
 
 .logo {
@@ -33,27 +37,72 @@ div.wrapper {
     gap: 5px;
 }
 
-.logo h2 {
-    font-weight: 700;
-    font-size: 35px;
-}
-
 .logo img {
-    width: 30px;
+    width: auto;
 }
 
 .button{
     display: flex;
     background: #FFFFFF;
     border: 1px var(--pink) solid;
-    padding: 5px 30px;
-    border-radius: 16px;
+    padding: 10px 40px;
+    border-radius: 20px;
     color: var(--pink);
+    box-shadow: #FFD4F0 2px 3px 11px 0px;
 }
 
 .button:hover,
 .button:active {
     border: 1px var(--light-pink) solid;
     color: var(--light-pink);
+    cursor: pointer;
+}
+
+/* ========= HERO SECTION STYLES ========= */
+section.body-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    gap: 30px;
+}
+
+.hero-styles {
+    color: var(--dark-cyan);
+    margin: 14em auto 0 auto;
+}
+
+
+.heading {
+    text-transform: capitalize;
+    font-size: 3rem;
+    font-family: "Poppins", sans-serif;
+}
+.introduction {
+    width: 600px;
+    text-align: center;
+    color: var(--light-cyan);
+    font-size: 1.2rem;
+}
+
+.hero-btn {
+    background: var(--pink);
+    border: 1px var(--pink) solid;
+    border-radius: 40px;
+    color: #FFFFFF;
+    font-size: 20px;
+    width: 400px;
+    padding: 25px 60px;
+    margin: 10px;
+    font-weight: 600;
+    box-shadow: #c7c2c2 2px 3px 11px 0px;
+}
+
+.hero-btn:hover,
+.hero-btn:active {
+    border: 1px var(--light-pink) solid;
+    background-color: var(--light-pink);
+    color: #FFFFFF;
     cursor: pointer;
 }

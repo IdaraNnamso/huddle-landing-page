@@ -70,7 +70,7 @@ section.hero-wrapper {
 
 .hero-styles {
     color: var(--dark-cyan);
-    margin: 14em auto 0 auto;
+    margin: 14em auto 10auto;
 }
 
 

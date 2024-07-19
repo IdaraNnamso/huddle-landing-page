@@ -106,3 +106,19 @@ section.body-wrapper {
     color: #FFFFFF;
     cursor: pointer;
 }
+
+main.stats {
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+}
+
+main.stats h1 {
+    font-size: 6em;
+}
+
+main.stats p {
+    font-size: 1.6em;
+    text-align: center;
+    color: #8A8F93
+}

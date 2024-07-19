@@ -59,7 +59,7 @@ div.wrapper {
 }
 
 /* ========= HERO SECTION STYLES ========= */
-section.body-wrapper {
+section.hero-wrapper {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -121,4 +121,30 @@ main.stats p {
     font-size: 1.6em;
     text-align: center;
     color: #8A8F93
+}
+
+
+/* ========= FEATURES STYLES ========= */
+.sect-one div.sect-one-center {
+    background-color: var(--pale-blue);
+    padding: 20px 0;
+}
+
+.bg-section-one-top {
+    padding: 80px 0;
+    background-image: url('/images/bg-section-top-desktop-1.svg')
+}
+
+.bg-section-one-bottom {
+    padding: 69px 0;
+    background-image: url('/images/bg-section-bottom-desktop-1.svg')
+}
+
+.body-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 85%;
+    margin: 0 auto;
 }

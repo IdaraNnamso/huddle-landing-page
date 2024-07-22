@@ -70,7 +70,7 @@ section.hero-wrapper {
 
 .hero-styles {
     color: var(--dark-cyan);
-    margin: 14em auto 10auto;
+    margin: 14em auto 10rem auto;
 }
 
 
@@ -127,7 +127,7 @@ main.stats p {
 /* ========= FEATURES STYLES ========= */
 .sect-one div.sect-one-center {
     background-color: var(--pale-blue);
-    padding: 20px 0;
+    padding: 80px 0;
 }
 
 .bg-section-one-top {
@@ -142,9 +142,26 @@ main.stats p {
 
 .body-wrapper {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
     width: 85%;
+    gap: 12%;
     margin: 0 auto;
+}
+
+.sect-text {
+    width: auto;
+    font-size: 1.5em;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+.sect-text p {
+    color: #4C5D66;
+    font-size: 0.7em;
+}
+
+.sect-image {
+    width: 43%;
 }

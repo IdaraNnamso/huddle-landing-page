@@ -253,12 +253,13 @@ main.stats p {
     flex-direction: column;
     justify-items: center;
     align-items: center;
-     padding: 40px;
+    gap: 30px;
+    padding: 160px 0;
 }
 
 .footer {
     margin: 0px;
-    padding: 40px;
+    padding: 0;
     font-family: "Open Sans", sans-serif;
  }
 

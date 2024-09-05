@@ -282,44 +282,41 @@ main.stats p {
    margin: 0 auto;
 }
 
-<<<<<<< HEAD
 /* .uppercase {
     text-transform: uppercase;
 } */
 
-.calls{
-    width: 20px;
-    height: 20px;
-    display: flex;
+.calls {
+   width: 20px;
+   height: 20px;
+   display: flex;
 }
-.gmail{
-    width: 20px;
-    height: 20px;
-    display: flex;
-}
-
-
-.calls-section{
-    display: flex;
-    flex-direction: row;
-    gap: 15px;
+.gmail {
+   width: 20px;
+   height: 20px;
+   display: flex;
 }
 
-.gmail-section{
-    display: flex;
-    flex-direction: row;  
-    gap: 15px;
+.calls-section {
+   display: flex;
+   flex-direction: row;
+   gap: 15px;
 }
 
+.gmail-section {
+   display: flex;
+   flex-direction: row;
+   gap: 15px;
+}
 
-.social-images{
-    width: 27px;
-    height: 27px;
-    display: flex;
-    flex-direction: row;
-    gap: 15px;
-   }
-=======
+.social-images {
+   width: 27px;
+   height: 27px;
+   display: flex;
+   flex-direction: row;
+   gap: 15px;
+}
+
 /* Media Queries----- */
 @media screen and (max-width: 895px) {
    div.wrapper {
@@ -385,4 +382,3 @@ main.stats p {
       margin: 5em auto 10rem auto;
    }
 }
->>>>>>> 22035adbc07c3cc5f7fda3aec36cacb8724648ae

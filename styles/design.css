@@ -291,3 +291,36 @@ main.stats p {
 /* .uppercase {
     text-transform: uppercase;
 } */
+
+.calls{
+    width: 20px;
+    height: 20px;
+    display: flex;
+}
+.gmail{
+    width: 20px;
+    height: 20px;
+    display: flex;
+}
+
+
+.calls-section{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.gmail-section{
+    display: flex;
+    flex-direction: row;  
+    gap: 15px;
+}
+
+
+.social-images{
+    width: 27px;
+    height: 27px;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+   }

@@ -238,6 +238,8 @@ main.stats p {
    margin: 10px;
    font-weight: 600;
    box-shadow: #c7c2c2 2px 3px 11px 0px;
+
+   
 }
 
 .BT:hover,
@@ -249,28 +251,59 @@ main.stats p {
 }
 
 .cta-sect {
-   width: 50%;
+   
    margin: 10px auto;
    display: flex;
    flex-direction: column;
    justify-items: center;
    align-items: center;
    gap: 30px;
-   padding: 160px 0;
+   /* padding: 160px 0; */
+}
+.cta-btn{
+   background: var(--pink);
+   border: 1px var(--pink) solid;
+   border-radius: 40px;
+   color: #ffffff;
+   font-size: 20px;
+   width: 295px;
+   padding: 25px 60px;
+   text-align: center;
+   text-decoration: none; 
+   margin: 10px;
+   font-weight: 600;
+   box-shadow: #c7c2c2 2px 3px 11px 0px;
+
+   
 }
 
 .footer {
    margin: 0px;
    padding: 0;
    font-family: "Open Sans", sans-serif;
+   background-image: url(/images/bg-footer-top-desktop.svg);
+
 }
 
 .footer-image {
    background-image: url(/images/bg-footer-top-desktop.svg);
    padding: 79px 0;
 }
-
-.footer-sect {
+.section-wrapper{
+   background-color: var(--dark-cyan);
+}
+.footer-wrapper{
+   background: var(--dark-cyan);
+   color: white;
+   padding: 70px 0;
+   max-width: 80%;
+   margin: 0 auto;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items:  ;
+}
+/* .footer-sect {
    background: var(--dark-cyan);
    color: white;
 }
@@ -280,7 +313,7 @@ main.stats p {
    flex-direction: row;
    width: 85%;
    margin: 0 auto;
-}
+} */
 
 /* .uppercase {
     text-transform: uppercase;
@@ -317,6 +350,13 @@ main.stats p {
    gap: 15px;
 }
 
+.BTN{
+   width: 100%;
+   display: flex;
+   justify-items: center;
+   align-items: center;
+}
+
 /* Media Queries----- */
 @media screen and (max-width: 895px) {
    div.wrapper {
@@ -329,7 +369,7 @@ main.stats p {
    .heading {
       font-size: 2.2rem;
    }
-   .hero-btn {
+   .hero-btn, .cta-btn {
       font-size: 14px;
       width: 270px;
       padding: 18px 45px;
@@ -369,7 +409,15 @@ main.stats p {
    }
    .sect-image {
       width: 100%;
-   }
+
+footer.footer-head{
+   display: flex;
+   flex-direction: column;
+   gap: 2rem;
+}
+      }
+
+      
 }
 @media screen and (max-width: 395px) {
    .logo > img {
@@ -380,5 +428,6 @@ main.stats p {
    }
    .hero-styles {
       margin: 5em auto 10rem auto;
+      
    }
 }
